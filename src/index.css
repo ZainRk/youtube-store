@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+
+.btn
+{
+    @apply text-white bg-[#8a4af3] rounded-md shadow-md mt-[30px] p-3;
+}
+
+.product_img
+{
+   @apply w-[80%] h-[80%] rounded-lg shadow-lg hover:scale-[1.1] ease-in duration-300;
+}
+
+.colorSelect
+{
+   @apply w-[2rem] h-[2rem] rounded-full border-2 p-[10px] ml-5 cursor-pointer;
+}
+@tailwind utilities;
